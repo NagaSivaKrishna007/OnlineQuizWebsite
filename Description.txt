@@ -1,0 +1,31 @@
+Firstly the task starts with login form[new1.php].If we already registered.
+Here we have to enter the 1.Email
+						  2.Password
+						  3.Role[It is set as Student by Default]. and click on Login.
+The now given data will be stored in the table name["login"] wichis in the database name["kumar"].
+
+Else it will direct us to the Registration form[new.php]to register into the quiz.
+We have to enter the 1.college ID(UNIQUE),
+					 2.Username,
+					 3.Email,
+					 4.Password,
+					 5.Date of Birth,
+					 6.Gender and click register.
+These all data will be stored in the table name["register"] which is in the databasename["kumar"].
+
+Now it will redirect to the instruction page[index1.html], there we go through the instructions.
+and take up the quiz.
+
+Here is the main page[Que.php].
+Here we have to enter the unique college id which we have entered at the time of registration.
+Here the selected radio values are stored in each variable when the submit button is pressed. 
+They are stored in the tablename["ans"] in the databasename["kumar"].
+Simultaneously the responses we have made are evaluated with the correct answers in the php code['student.php'] itself.
+Then it displays the result page and logout from the pageLogout code is in['logout.php'].
+
+pagetraversal: new1.php --> new.php --> index1.html --> Que.php --> student.php -->logout.php
+
+kumar.sql is the database file.
+username:krishna
+password:krishna
+
